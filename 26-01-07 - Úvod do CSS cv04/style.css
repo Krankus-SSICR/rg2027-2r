@@ -1,0 +1,32 @@
+body {
+    background: lightcoral;
+    font-family: Tahoma;
+    margin: 0;
+}
+h2 {
+    font-size: 32px;
+    border-left: 6px solid navy;
+    margin-left: 15%;
+    margin-top: 0;
+    padding-left: 1em;
+}
+p {
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+div {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+.ryby {
+    background: lightblue;
+}
+.savci {
+    background: black;
+    color: azure;
+}
+.savci h2 {
+    border-left: aqua 6px solid;
+}

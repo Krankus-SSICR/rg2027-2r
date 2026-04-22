@@ -1,0 +1,23 @@
+body {
+    background: #eee;
+    color: #222;
+    font-family: Tahoma;
+    margin: 0;
+}
+nav ul {
+    background: #222;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 30px;
+}
+nav a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+nav ul {
+    /*selektor pro neuspořádané seznamy v navigaci*/
+    margin: 0;
+    /*tím odstraníme výchozí vnější odsazení*/
+    background: lightpink;
+    height: 150px;
+    /*výška*/
+    display: flex;
+    /*flexibilní zobrazování*/
+    justify-content: center;
+    /*vodorovné zarovnání na střed*/
+    align-items: center;
+    /*svislé zarovnání na střed*/
+    list-style: none;
+    /*odebere odrážky*/
+    gap: 50px;
+    /*nastavení rozestupů child prvků*/
+}
+nav a {
+    color: darkorchid;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+nav a:hover {
+    opacity: 1;
+}
+.aktivni {
+    opacity: 1;
+}

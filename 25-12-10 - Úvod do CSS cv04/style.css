@@ -1,0 +1,19 @@
+body {
+    background: lightcoral;
+    font-family: Tahoma;
+}
+h2 {
+    font-size: 32px;
+    border-left: 6px solid navy;
+    margin-left: 15%;
+    padding-left: 1em;
+}
+p {
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.ryby {
+    background: lightblue;
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 112px;
+    background-color: maroon;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav a {
+    color: beige;
+    font-weight: bold;
+    text-decoration:none ;
+
+
+}

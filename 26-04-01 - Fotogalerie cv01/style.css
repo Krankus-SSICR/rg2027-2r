@@ -1,0 +1,24 @@
+body {
+    margin-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.karta {
+    background: lightskyblue;
+    width: 25%;
+    padding: 2em;
+}
+.karta img {
+    width: 100%;
+}
+.galerie {
+    display: flex;
+    /*child prvky se začnou zobrazovat vedle sebe*/
+    /*šířka prvků se flexibilně zmenší, tak aby se vše vešlo vedle sebe*/
+    flex-wrap: wrap;
+    /*při nedostatku místa umístí child prvek na další řádek*/
+    justify-content: center;
+    /*vodorovné zarovnání obsahu na střed*/
+    gap: 15px;
+    /*nastavení vodorovných a svislých rozestupů*/
+}

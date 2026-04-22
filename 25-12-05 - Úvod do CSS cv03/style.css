@@ -1,0 +1,22 @@
+body {
+    background: aquamarine;
+    font-family: Tahoma;
+}
+h1 {
+    font-size: 42px;
+    color: crimson;
+    background: white;
+    text-align: center;
+    border: 8px solid darkorchid;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+}
+a {
+    font-size: 42px;
+    color: crimson;
+    text-align: center;
+    border: 8px solid darkorchid;
+    display: block;
+}
