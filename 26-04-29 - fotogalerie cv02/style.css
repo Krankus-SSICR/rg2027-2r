@@ -1,0 +1,28 @@
+body {
+    font-family: Tahoma;
+    margin: 60px;
+}
+.galerie {
+    padding: 30px;
+    background: #F2B705;
+    border: 6px solid #D92B04;
+}
+.foto img {
+    width: 100%;
+}
+.karta {
+    width: 22%;
+    background: white;
+    border-radius: 15px;
+    /*zabolení rohů*/
+    overflow: hidden;
+    /*schová obsah, který leze ven*/
+}
+.texty {
+    margin-left: 20px;
+}
+.nazev {
+    color: #044BD9;
+    font-weight: bold;
+    font-size: large;
+}
