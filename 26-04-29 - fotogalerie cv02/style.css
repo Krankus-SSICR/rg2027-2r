@@ -6,6 +6,14 @@ body {
     padding: 30px;
     background: #F2B705;
     border: 6px solid #D92B04;
+    display: flex;
+    /* slouží k zobrazení prvků vedle sebe */
+    flex-wrap: wrap;
+    /* zarovná prvek na další řádek při nedostatku místa */
+    justify-content: center;
+    /* zarovná prvky vodorovně na střed */
+    gap: 10px;
+    /* nastaví mezery mezi prvky */
 }
 .foto img {
     width: 100%;
@@ -25,4 +33,7 @@ body {
     color: #044BD9;
     font-weight: bold;
     font-size: large;
+}
+.galerie a {
+    text-decoration: none;
 }
